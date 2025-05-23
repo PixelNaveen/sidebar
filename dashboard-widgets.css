@@ -1,0 +1,29 @@
+/* Extra Dashboard Widgets Styling (responsive, clean) */
+.recent-tasks-list .badge {
+  font-size: 0.95em;
+  min-width: 75px;
+}
+.card {
+  border-radius: 1.1em;
+}
+.card-header {
+  background: #fff !important;
+  border-bottom: 1px solid #f1f1f1;
+}
+@media (max-width: 991.98px) {
+  .card {
+    margin-bottom: 1.5rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .recent-tasks-list .badge {
+    min-width: 60px;
+    font-size: 0.85em;
+  }
+  .card {
+    border-radius: 0.7em;
+  }
+}
+.blockquote-footer {
+  font-size: 0.95em;
+}
